@@ -198,11 +198,11 @@ def main(fname):
 
 		elif k==ord('q'):
 			global id_img
-			#sio.savemat(fname.replace(inp_path,out_path),d)
+			
 
 			with open("manage.json",'w') as fl:
 				for key in d:
-				#for key in d:
+				
 
 					user = {}
 					bb_box=[]
@@ -245,7 +245,7 @@ def main(fname):
 		elif k==ord('=') and zoom_pix-2<zoom_max and zoom_pix-2>zoom_min:
 			zoom_pix -= 2
 	
-	dmain["anotations"]=multikeys
+	dmain["annotations"]=multikeys
 	with open("manage.json",'w') as fl:
 				fl.write(json.dumps(dmain, cls=NumpyEncoder))
 				
