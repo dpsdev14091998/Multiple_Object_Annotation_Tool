@@ -17,4 +17,8 @@ Create a folder named "data" and put the image to annotate under ./data/ and the
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Acknowledgments
+This project is an modified version of the repo https://github.com/ZhaoJ9014/Multi-Human-Parsing/tree/master/Annotation_Tools/Multi-Human_Pose
+where it was storing 16 keypoints and in the ".mat" format, but this project will store 17 keypoints and in the ".json" format.
+
 
