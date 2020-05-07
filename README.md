@@ -19,6 +19,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Acknowledgments
 This project is an modified version of the repo https://github.com/ZhaoJ9014/Multi-Human-Parsing/tree/master/Annotation_Tools/Multi-Human_Pose
-where it was storing 16 keypoints and in the ".mat" format, but this project will store 17 keypoints and in the ".json" format.
+Modifications:
+1. Now, it will store the results in "json" format.
+2. It will store 17 keypoints now.
 
 
