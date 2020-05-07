@@ -1,7 +1,7 @@
 # Multiple_Object_Annotation_Tool
 It is an annotation tool that will store 17 keypoints and coordinates of the bounding boxes of the object taken into account and will store the same for multiple objects in the json format.
 ## Pre-Requisites
-1. Python   2. openCV
+1. Python      2. openCV
 
 ## Usage
 
